@@ -1,0 +1,149 @@
+<html>
+  <head>
+    <title>Application form</title>
+  </head>
+  <body style="color: black; background-color: skyblue">
+    <header>
+      <h1 align="center" style="color: seagreen">GEEKSTER</h1>
+    </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <table align="center" border="1">
+      <form>
+        <thead>
+          <tr>
+            <th colspan="2">Registration form</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Name</td>
+            <td>
+              <input
+                type="text"
+                name="name"
+                placeholder="enter your name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>phone number</td>
+            <td>
+              <input
+                type="number"
+                name="phone"
+                placeholder="enter your ph number"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                placeholder="enter your mail"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>
+              <input
+                type="password"
+                name="password"
+                required
+                minlength="5"
+                placeholder="enter passowrd"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>D.o.b</td>
+            <td><input type="date" name="dob" required /></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="gender" required value="male" />Male
+              <input type="radio" name="gender" required value="female" />Female
+            </td>
+          </tr>
+          <tr>
+            <td>select course</td>
+            <td>
+              <input
+                type="radio"
+                name="course"
+                required
+                value="01"
+              />FrontEnd<br />
+              <input
+                type="radio"
+                name="course"
+                required
+                value="02"
+              />BackEnd<br />
+              <input type="radio" name="course" required value="03" />MERN
+              STACK<br />
+              <input type="radio" name="course" required value="04" />JAVA
+              SATCK<br />
+            </td>
+          </tr>
+          <tr>
+            <td>skiils your are familiar</td>
+            <td>
+              <input type="checkbox" name="skiils" value="11" />Html<br />
+              <input type="checkbox" name="skiils" value="12" />Css<br />
+              <input type="checkbox" name="skiils" value="13" />Js<br />
+              <input type="checkbox" name="skiils" value="13" />React<br />
+              <input type="checkbox" name="skiils" value="14" />Node<br />
+            </td>
+          </tr>
+          <tr>
+            <td>Year of Graduation</td>
+            <td>
+              <select name="Graduation" required>
+                <option disabled selected>select</option>
+                <option value="2018" required>2018</option>
+                <option value="2019" required>2019</option>
+                <option value="2020" required>2020</option>
+                <option value="2021" required>2021</option>
+                <option value="2022" required>2022</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>pancard</td>
+            <td>
+              <input
+                type="file"
+                name="pan"
+                placeholder="upload pancard"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <input type="reset" />
+              <input type="submit" />
+            </td>
+          </tr>
+        </tbody>
+      </form>
+    </table>
+  </body>
+</html>
